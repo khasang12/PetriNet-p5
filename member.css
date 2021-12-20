@@ -1,0 +1,44 @@
+.container{
+    background: #000000;
+}
+ 
+.our-team{
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px 15px 30px;
+    background: #fff;
+
+}
+.our-team .pic{
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 25px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .pic{
+    background: #17bebb;
+    border-radius: 50%;
+}
+.pic img{
+    width: 100%;
+    height: 190px;
+    border-radius: 50%;
+}
+.our-team .title{
+    font-weight: 600;
+    color: #2e282a;
+    text-transform: uppercase;
+    display: block;
+    font-size: 20px;
+    margin: 0 0 7px 0;
+}
+.our-team .post{
+    color: #17bebb;
+    text-transform: capitalize;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
